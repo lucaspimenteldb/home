@@ -1,0 +1,255 @@
+@navbar: rgba(244, 248, 253, 1);
+
+/* Limitadores de conteúdo */
+body > div.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 100%;
+}
+body > div > div.conteudo-wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+.contercorpo {
+    width: 100%;
+}
+
+body > div > div > div {
+    height: 410px;
+}
+/* Fim dos limitadores de conteúdo */
+
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: rgba(244, 248, 253, 1);
+    border: 0px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+body > div > nav.navbar {
+    margin-bottom: 0px;
+}
+
+a.navbar-brand {
+    color: black;
+    float: right;
+    font-size: 1.5em;
+}
+
+/* H2 e P de todas as seções */
+h2.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+p.intro {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: black;
+}
+
+/* Primeira parte da parte dos conceitos */
+#conceito > div.row > div.col-md-7 {
+    margin-top: 3em;
+}
+
+/* Limitador do conteúdo da primeira sessão: A Ideia */
+#conceito > div.row {
+    height: auto;
+}
+/* Espaço entra a borda e o conteúdo */
+#conceito > div > div.col-md-7 {
+    padding-left: 15%;
+}
+/* Tirar padding da div da primeira imagem */
+#conceito > div > div.col-md-5 {
+    padding: 0px;
+}
+img {
+    max-width: 100%;
+}
+/* Parte do modelo canvas */
+#hide {
+    display: none;
+    max-height: 410px;
+}
+#conceito1 {
+    height: 100px;
+}
+.hide {
+    display: none;
+}
+div.col-md-2.canvastexto > p {
+    color: black;
+}
+div.col-md-2.canvastexto {
+    position: relative;
+    top: -30px;
+    text-align: left;
+}
+div.col-md-2.canvastexto > p {
+    margin-bottom: 3px;
+}
+#conceito1 > div:nth-child(3) {
+    margin-left: 10%;
+}
+/* Botão de proximo e voltar */
+#botao {
+    position: relative;
+    left: 94%;
+    top: -16em;
+    max-width: 55px;
+    margin-right: 0px;
+}
+#butright {
+    font-family: 'Poppins', sans-serif;
+    border: solid 3px black;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2); /* offset-x | offset-y | blur-radius | spread-radius | color */
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#butright > p {
+    color: black;
+}
+#butright:hover {
+    transform: scale(1.1);
+}
+
+#butright > p {
+    font-size: 1em;
+    margin: 0px;
+}
+#butright > p:nth-child(1) {
+    margin-right: 5px;
+}
+
+#botaovolta {
+    position: relative;
+    top: 2em;
+    left: 2%;
+    width: 62px;
+}
+#butleft {
+    font-family: 'Poppins', sans-serif;
+    border: solid 3px black;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2); /* offset-x | offset-y | blur-radius | spread-radius | color */
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#butleft > p {
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+}
+#butleft > p:nth-child(2) {
+    margin-right: 5px;
+}
+#butleft:hover {
+    transform: scale(1.1);
+}
+
+/* Parte do texto do canvas */
+#canvastitle {
+    margin-top: 3em;
+    margin-left: 3em;
+}
+.intro.topicos {
+    margin-left: 6.5em;
+    color: black;
+}
+
+/* Amostra das telas */
+#telas {
+    margin-top: 1px;
+}
+#telas > div:nth-child(1) {
+    background-color: black;
+    color: white;
+}
+#telas > div:nth-child(1) > div.col-md-7 > p {
+    color: white;
+}
+#telas > div:nth-child(1) > div.col-md-7 > p {
+    width: 75%;
+}
+/* Parte dois das telas */
+#telas > div:nth-child(2) > div.col-md-12 {
+    padding-left: 15%;
+}
+#telas > div > div.col-md-3 {
+    text-align: center;
+    height: 450px;
+    margin-top: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#telas > div:nth-child(2) > div:nth-child(2) {
+    margin-left: 13%;
+}
+#telas > div > div > img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Parte da equipe, bruxão */
+#equipe {
+    margin-top: 4em;
+    background-image: url("../images/fundoequipe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#equipe > div.col-md-12 {
+    padding-left: 14%;
+    padding-right: 0;
+}
+/* Fotos da equipe */
+#equipe > div.row.rostosequipe {
+    display: inline;
+    margin-left: auto;
+    align-items: center;
+}
+.equipe1, .equipe2, .equipe3, .equipe4, .equipe5, .equipe6, .equipe7, .equipe8 {
+    background-color: #222;
+    height: 10em;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+/* Legendas das fotos */
+.textoequipe {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h4.textoequipe {
+    margin-bottom: 0.2em;
+}
+#equipe > div.col-md-12 > h2 {
+    color: white;
+}
+figcaption {
+    color: white;
+}
+
+/* Footer ;*/
+.foot {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(244, 248, 253, 1);
+    text-align: center;
+}
+.foot > p {
+    margin-bottom: 0.3em;
+}
+.foot > p:nth-child(2) {
+    margin-bottom: 0em;
+}
